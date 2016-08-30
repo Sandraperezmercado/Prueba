@@ -1,0 +1,1082 @@
+<!DOCTYPE html>
+<!-- saved from url=(0048)https://developer.mozilla.org/es/docs/HTML/HTML5 -->
+<html lang="es" dir="ltr" class="redesign " data-ffo-opensanslight="true" data-ffo-opensans="true"><head prefix="og: http://ogp.me/ns#"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <script async="" src="./HTML5 - HTML _ MDN_files/analytics.js"></script><script>(function(d) { d.className = d.className.replace(/\bno-js/, ''); })(document.documentElement);</script>
+  
+    
+  
+
+  
+  <title>HTML5 - HTML | MDN</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <link rel="home" href="https://developer.mozilla.org/es/">
+  <link rel="copyright" href="https://developer.mozilla.org/es/docs/HTML/HTML5#copyright">
+
+  
+    
+    
+    <link href="./HTML5 - HTML _ MDN_files/mdn.65be1fdadb40.css" rel="stylesheet" type="text/css">
+
+    
+  
+    <link href="./HTML5 - HTML _ MDN_files/wiki.ad38740e3609.css" rel="stylesheet" type="text/css">
+
+    
+
+
+  <!-- common social tags -->
+  
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://developer.cdn.mozilla.net/static/img/opengraph-logo.dc4e08e2f6af.png">
+  <meta property="og:site_name" content="Mozilla Developer Network">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:image" content="https://developer.cdn.mozilla.net/static/img/opengraph-logo.dc4e08e2f6af.png">
+  <meta name="twitter:site" content="@MozDevNet">
+  <meta name="twitter:creator" content="@MozDevNet">
+
+  <link rel="search" type="application/opensearchdescription+xml" href="https://developer.mozilla.org/es/search/xml" title="Mozilla Developer Network">
+
+  <!-- third-generation iPad with high-resolution Retina display: -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://developer.cdn.mozilla.net/static/img/favicon144.a6e4162070f4.png">
+  <!-- iPhone with high-resolution Retina display: -->
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://developer.cdn.mozilla.net/static/img/favicon114.0e9fabd44f85.png">
+  <!-- first- and second-generation iPad: -->
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://developer.cdn.mozilla.net/static/img/favicon72.8ff9d87c82a0.png">
+  <!-- non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+  <link rel="apple-touch-icon-precomposed" href="https://developer.cdn.mozilla.net/static/img/favicon57.a2490b9a2d76.png">
+  <!-- basic favicon -->
+  
+    
+  
+  <link rel="shortcut icon" href="https://developer.cdn.mozilla.net/static/img/favicon32.e02854fdcf73.png">
+  <!--[if IE]>
+  <meta http-equiv="imagetoolbar" content="no">
+  <script type="text/javascript" src="https://developer.cdn.mozilla.net/static/build/js/html5shiv.3948ccddab6f.js" charset="utf-8"></script>
+  <![endif]-->
+
+  
+  <link rel="alternate" type="application/json" href="https://developer.mozilla.org/es/docs/HTML/HTML5$json">
+  <link rel="canonical" href="https://developer.mozilla.org/es/docs/HTML/HTML5">
+
+  
+    
+      <link rel="alternate" hreflang="pl" href="https://developer.mozilla.org/pl/docs/HTML/HTML5" title="HTML5">
+    
+      <link rel="alternate" hreflang="en-US" href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" title="HTML5">
+    
+      <link rel="alternate" hreflang="ja" href="https://developer.mozilla.org/ja/docs/Web/HTML/HTML5" title="HTML5">
+    
+      <link rel="alternate" hreflang="pt-PT" href="https://developer.mozilla.org/pt-PT/docs/Web/HTML/HTML5" title="HTML5">
+    
+      <link rel="alternate" hreflang="fr" href="https://developer.mozilla.org/fr/docs/Web/Guide/HTML/HTML5" title="HTML5">
+    
+      <link rel="alternate" hreflang="zh-TW" href="https://developer.mozilla.org/zh-TW/docs/Web/HTML/HTML5" title="HTML5">
+    
+      <link rel="alternate" hreflang="ko" href="https://developer.mozilla.org/ko/docs/Web/HTML/HTML5" title="HTML5">
+    
+      <link rel="alternate" hreflang="pt-BR" href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5" title="HTML5">
+    
+      <link rel="alternate" hreflang="fa" href="https://developer.mozilla.org/fa/docs/HTML/HTML5" title="HTML5">
+    
+      <link rel="alternate" hreflang="ru" href="https://developer.mozilla.org/ru/docs/HTML/HTML5" title="HTML5">
+    
+      <link rel="alternate" hreflang="tr" href="https://developer.mozilla.org/tr/docs/Web/HTML/HTML5" title="HTML5">
+    
+      <link rel="alternate" hreflang="it" href="https://developer.mozilla.org/it/docs/Web/HTML/HTML5" title="HTML5">
+    
+      <link rel="alternate" hreflang="zh-CN" href="https://developer.mozilla.org/zh-CN/docs/Web/Guide/HTML/HTML5" title="HTML5">
+    
+      <link rel="alternate" hreflang="bn-BD" href="https://developer.mozilla.org/bn-BD/docs/HTML/HTML5" title="HTML5">
+    
+      <link rel="alternate" hreflang="de" href="https://developer.mozilla.org/de/docs/Web/HTML/HTML5" title="HTML5">
+    
+      <link rel="alternate" hreflang="cs" href="https://developer.mozilla.org/cs/docs/cs_HTML/HTML5" title="HTML5">
+    
+      <link rel="alternate" hreflang="id" href="https://developer.mozilla.org/id/docs/Web/Guide/HTML/HTML5" title="HTML5">
+    
+      <link rel="alternate" hreflang="ro" href="https://developer.mozilla.org/ro/docs/Web/Guide/HTML/HTML5" title="HTML5">
+    
+      <link rel="alternate" hreflang="ar" href="https://developer.mozilla.org/ar/docs/Web/Guide/HTML/HTML5" title="HTML5">
+    
+      <link rel="alternate" hreflang="he" href="https://developer.mozilla.org/he/docs/Web/Guide/HTML/HTML5" title="HTML5">
+    
+      <link rel="alternate" hreflang="az" href="https://developer.mozilla.org/az/docs/Web/Guide/HTML/HTML5" title="HTML5">
+    
+      <link rel="alternate" hreflang="my" href="https://developer.mozilla.org/my/docs/Web/Guide/HTML/HTML5" title="HTML5">
+    
+      <link rel="alternate" hreflang="nl" href="https://developer.mozilla.org/nl/docs/Web/Guide/HTML/HTML5" title="HTML5">
+    
+      <link rel="alternate" hreflang="hr" href="https://developer.mozilla.org/hr/docs/Web/Guide/HTML/HTML5" title="HTML5">
+    
+      <link rel="alternate" hreflang="uk" href="https://developer.mozilla.org/uk/docs/Web/Guide/HTML/HTML5" title="HTML5">
+    
+  
+
+  <!-- document-specific social tags -->
+  <meta property="og:title" content="HTML5">
+  <meta property="og:url" content="https://developer.mozilla.org/es/docs/HTML/HTML5">
+  <meta name="twitter:url" content="https://developer.mozilla.org/es/docs/HTML/HTML5">
+  <meta name="twitter:title" content="HTML5">
+  
+  <meta property="og:description" content="HTML5 es la última versión de HTML . Se trata de una nueva versión de HTML, con nuevos elementos, atributos y comportamientos. Contiene un conjunto más amplio de tecnologías que permite a los sitios Web y a las aplicaciones ser más diversas y de gran alcance.">
+  <meta name="description" content="HTML5 es la última versión de HTML . Se trata de una nueva versión de HTML, con nuevos elementos, atributos y comportamientos. Contiene un conjunto más amplio de tecnologías que permite a los sitios Web y a las aplicaciones ser más diversas y de gran alcance.">
+  <meta name="twitter:description" content="HTML5 es la última versión de HTML . Se trata de una nueva versión de HTML, con nuevos elementos, atributos y comportamientos. Contiene un conjunto más amplio de tecnologías que permite a los sitios Web y a las aplicaciones ser más diversas y de gran alcance.">
+  
+
+  
+  <script type="text/javascript">
+    
+      var document_saved = 0;
+    
+  </script>
+
+
+
+  
+    
+
+<script type="text/javascript">
+
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-36116321-5', 'mozilla.org');
+    ga('set', 'anonymizeIp', true);
+
+    
+
+    // dimension9 == "Section editing"
+    
+        // dimension12 == 'Page Revision"
+        ga('set', 'dimension12', '1059090');
+
+    (function() {
+        // http://cfsimplicity.com/61/removing-analytics-clutter-from-campaign-urls
+        var win = window;
+        var removeUtms = function(){
+            var location = win.location;
+            if (location.href.indexOf('utm') != -1 && win.history.replaceState) {
+                win.history.replaceState({}, '', location.pathname);
+            }
+        };
+
+        ga('send', 'pageview', {'hitCallback': removeUtms});
+    })();
+</script>
+
+  
+</head>
+<body data-slug="HTML/HTML5" contextmenu="edit-history-menu" data-search-url="" class="document  ">
+
+  <script type="text/javascript">
+    (function(win) {
+        'use strict';
+
+        
+            (function(){
+  var FLAGS = {
+    'compat_api': false,'iperceptions': false,'kumaediting': false,'page_move': false,'registration_disabled': false,'search_suggestions': false,'section_edit': false,'sg_task_completion': false,'spam_admin_override': false,'spam_checks_enabled': true,'spam_spammer_override': false,'spam_submissions_enabled': false,'spam_testing_mode': false,'wiki_samples': true,'wiki_spam_exempted': false,'wiki_spam_training': false
+    },
+    SWITCHES = {
+    'wiki_error_on_delete': false,'wiki_force_immediate_rendering': false,'enable_optimizely': false,'welcome_email': true,'application_ACAO': true,'store_revision_ips': true,'dumb_doc_urls': true
+    },
+    SAMPLES = {
+    
+    };
+  window.waffle = {
+    "flag_is_active": function waffle_flag(flag_name) {
+      
+      return !!FLAGS[flag_name];
+    },
+    "switch_is_active": function waffle_switch(switch_name) {
+      
+      return !!SWITCHES[switch_name];
+    },
+    "sample_is_active": function waffle_sample(sample_name) {
+      
+      return !!SAMPLES[sample_name];
+    },
+    "FLAGS": FLAGS,
+    "SWITCHES": SWITCHES,
+    "SAMPLES": SAMPLES
+  };
+})();
+
+        
+
+        // This needs to be set before ckeditor.js loads
+        window.CKEDITOR_BASEPATH = '/static/js/libs/ckeditor/build/ckeditor/';
+
+        // This represents the site configuration
+        win.mdn = {
+            // Properties and settings for CKEditor will go here
+            ckeditor: {},
+            // Feature test results and methods will be placed here
+            features: {},
+            // The path to static assets (images, CSS, JS) in MDN
+            staticPath: 'https://developer.cdn.mozilla.net/static/',
+            // Optimizely API
+            optimizely: win['optimizely'] || [],
+            // Site notifications
+            
+            notifications: [],
+            
+            // Wiki-specific settings will be placed here
+            wiki: {
+                autosuggestTitleUrl: '/es/docs/get-documents'
+            },
+            // Assets that need to be dynamically injected
+            assets: {
+                css: {
+                    'editor-content': ['https://developer.cdn.mozilla.net/static/build/styles/editor-content.cdc2a41387bb.css',],
+                    'wiki-compat-tables': ['https://developer.cdn.mozilla.net/static/build/styles/wiki-compat-tables.f3a3bfce97a1.css',]
+                },
+                js: {
+                    'syntax-prism': ['https://developer.cdn.mozilla.net/static/build/js/syntax-prism.7a66ddfa68bf.js',],
+                    'wiki-compat-tables': ['https://developer.cdn.mozilla.net/static/build/js/wiki-compat-tables.14ce5dcb2c3d.js',]
+                }
+            }
+        };
+    })(this);
+</script>
+
+  
+  <div class="global-notice">
+    <div class="wrap center">
+      
+        <p><bdi>Join MDN and developers like you at Mozilla's View Source conference, 12-14 September in Berlin, Germany. Learn more at <a href="https://viewsourceconf.org/">https://viewsourceconf.org</a></bdi></p>
+      
+    </div>
+  </div>
+
+
+  
+
+  <ul id="nav-access">
+    <li><a href="https://developer.mozilla.org/es/docs/HTML/HTML5#document-main" id="skip-main">Saltar al contenido principal</a></li>
+    <li><a id="skip-language" href="https://developer.mozilla.org/es/docs/HTML/HTML5#language">Seleccionar idioma</a></li>
+    
+      <li><a href="https://developer.mozilla.org/es/docs/HTML/HTML5#q" id="skip-search">Saltar a la búsqueda</a></li>
+    
+  </ul>
+
+  <!-- Header -->
+  <header id="main-header"><div class="center">
+
+    <div id="tabzilla">
+        <a href="https://www.mozilla.org/" class="no-track">mozilla</a>
+    </div>
+
+    <div class="clear header-clear"></div>
+
+
+    <a href="https://developer.mozilla.org/es/" class="logo">Mozilla Developer Network</a>
+
+
+    <div id="nav-sec">
+        
+                  <ul>
+                  <li>
+
+    
+
+    <form>
+      <div class="oauth-login-container">
+          <div class="oauth-login-options" tabindex="0">
+              <span class="oauth-login-options-text">
+                Registrarse
+              </span>
+              <span class="oauth-icon oauth-github" data-service="GitHub" data-href="/users/github/login/?next=%2Fes%2Fdocs%2FHTML%2FHTML5" title="GitHub"><i class="icon-github" aria-hidden="true"></i></span>
+          </div>
+          <div class="oauth-login-picker" aria-hidden="true" style="z-index: 99998;">
+              <ul>
+                  <li>
+                    Inicia sesión o crea una cuenta:<br>
+                    <a href="https://developer.mozilla.org/users/github/login/?next=%2Fes%2Fdocs%2FHTML%2FHTML5" class="login-link" data-service="GitHub"><i class="icon-github" aria-hidden="true"></i>GitHub</a>
+                  </li>
+                  <li class="wait-for-persona">
+                      Iniciar sesión: <a href="https://developer.mozilla.org/docs/MDN/Contribute/Persona_Sign_In_on_MDN"><i aria-hidden="true" title="¿Por qué solo se inicia sesión con Persona?" class="icon-question-sign"></i></a><br>
+                      <a href="https://developer.mozilla.org/es/users/signin" class="login-link launch-persona-login" data-next="/es/docs/HTML/HTML5" data-service="Persona"><i class="icon-user" aria-hidden="true"></i>Persona</a>
+                  </li>
+              </ul>
+              
+          <button type="button" class="submenu-close transparent"><span class="offscreen">Cerrar submenú</span><i aria-hidden="true" class="icon-remove-sign"></i></button></div>
+      </div>
+    </form>
+</li>
+                </ul>
+        
+    </div>
+
+    <nav id="main-nav" role="navigation"><ul><li><a href="https://developer.mozilla.org/es/docs/Web">Plataforma web<i aria-hidden="true" class="icon-caret-down"></i></a>
+
+        <div class="submenu submenu-cols-2 js-submenu" id="nav-platform-submenu" aria-hidden="true" style="z-index: 99998;">
+          <div class="submenu-column">
+            <div class="title">Tecnologías</div>
+            <ul>
+              <li><a href="https://developer.mozilla.org/es/docs/Web/HTML">HTML</a></li>
+              <li><a href="https://developer.mozilla.org/es/docs/Web/CSS">CSS</a></li>
+              <li><a href="https://developer.mozilla.org/es/docs/Web/JavaScript">JavaScript</a></li>
+              <li><a href="https://developer.mozilla.org/es/docs/Web/Guide/Graphics">Gráficos</a></li>
+              <li><a href="https://developer.mozilla.org/es/docs/Web/HTTP">HTTP</a></li>
+              <li><a href="https://developer.mozilla.org/es/docs/Web/API">API / DOM</a></li>
+              <li><a href="https://developer.mozilla.org/es/docs/Web/Apps">Aplicaciones</a></li>
+              <li><a href="https://developer.mozilla.org/es/docs/Web/MathML">MathML</a></li>
+            </ul>
+          </div><div class="submenu-column last">
+            <div class="title">Referencias y guías</div>
+            <ul>
+              <li><a href="https://developer.mozilla.org/es/docs/Learn">Aprende más sobre la Web</a></li>
+              <li><a href="https://developer.mozilla.org/es/docs/Web/Tutorials">Tutoriales</a></li>
+              <li><a href="https://developer.mozilla.org/es/docs/Web/Reference">Referencias</a></li>
+              <li><a href="https://developer.mozilla.org/es/docs/Web/Guide">Guías para desarrolladores</a></li>
+              <li><a href="https://developer.mozilla.org/es/docs/Web/Accessibility">Accesibilidad</a></li>
+              <li><a href="https://developer.mozilla.org/es/docs/Games">Game development</a></li>
+              <li><a href="https://developer.mozilla.org/es/docs/Web">...más documentos</a></li>
+            </ul>
+          </div>
+        <button type="button" class="submenu-close transparent"><span class="offscreen">Cerrar submenú</span><i aria-hidden="true" class="icon-remove-sign"></i></button></div>
+      </li><li><a href="https://developer.mozilla.org/es/docs/Zones">Mozilla Docs<i aria-hidden="true" class="icon-caret-down"></i></a>
+
+        <div class="submenu js-submenu" id="nav-zones-submenu">
+          <div class="submenu-column">
+            <ul>
+              <li><a href="https://developer.mozilla.org/es/docs/Mozilla/Add-ons">Complementos</a></li>
+              <li><a href="https://developer.mozilla.org/es/docs/Mozilla/Firefox">Firefox</a></li>
+              <li><a href="https://developer.mozilla.org/es/docs/Mozilla/Add-ons/WebExtensions">WebExtensions</a></li>
+            </ul>
+          </div>
+        </div>
+      </li><li><a href="https://developer.mozilla.org/es/docs/Tools">Herramientas para desarrolladores</a></li><li><a href="https://developer.mozilla.org/es/docs/MDN/Feedback">Comentarios<i aria-hidden="true" class="icon-caret-down"></i></a>
+
+        <div class="submenu js-submenu" id="nav-contact-submenu">
+          <div class="submenu-column">
+            <ul>
+                <li><a href="https://support.mozilla.org/">Obtén ayuda de Firefox<i aria-hidden="true" class="icon-external-link"></i></a></li>
+                <li><a href="http://stackoverflow.com/">Obtén ayuda de desarrollo web<i aria-hidden="true" class="icon-external-link"></i></a></li>
+            </ul>
+            <ul>
+              <li><a href="https://developer.mozilla.org/es/docs/MDN/Community">Únete a la comunidad de MDN</a></li>
+              <li><a href="https://bugzilla.mozilla.org/form.doc?bug_file_loc=https%3A//developer.mozilla.org/es/docs/HTML/HTML5">Denuncia un problema de contenido<i aria-hidden="true" class="icon-external-link"></i></a></li>
+              <li><a href="https://bugzilla.mozilla.org/form.mdn">Informar de un error. <i aria-hidden="true" class="icon-external-link"></i></a></li>
+            </ul>
+          </div>
+        </div>
+
+      </li><li class="nav-search-link"><a href="https://developer.mozilla.org/es/search" title="Search"><i aria-hidden="true" class="icon-search"></i></a></li><li class="main-nav-search"><form action="https://developer.mozilla.org/es/search" method="get" role="search">
+        <div class="search-wrap">
+          <label for="main-q" class="offscreen">Buscar</label>
+          <input type="search" id="main-q" name="q" placeholder="Buscar" data-value="" value="">
+          <span class="search-trigger"><i aria-hidden="true" class="icon-search"></i></span>&nbsp;
+          <button type="submit" class="offscreen">Buscar</button>
+        </div>
+      </form></li></ul></nav>
+  </div></header>
+
+  <!-- Content will go here -->
+  <main id="content"><div class="center clear">
+  
+
+   <!-- end is_zone -->
+
+
+    <div class="wiki-main-content" id="document-main" role="main"><div class="center">
+      
+      <div class="article-meta">
+        <!-- action buttons -->
+        
+
+  
+    
+    
+  
+
+  
+    
+  
+
+  
+
+  <ul class="page-buttons" data-sticky="false">
+      
+      <li><button id="languages-menu" class="transparent" aria-haspopup="true" aria-owns="languages-menu-submenu" aria-expanded="false"><span>Idiomas</span><i aria-hidden="true" class="icon-language"></i></button>
+
+        <div class="submenu js-submenu" id="languages-menu-submenu">
+          <div class="submenu-column">
+            <ul id="translations">
+              
+                
+                  <li><bdi><a rel="internal" href="https://developer.mozilla.org/pl/docs/HTML/HTML5" title="Polaco">Polski (pl)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" title="English (US)">English (US) (en-US)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="https://developer.mozilla.org/ja/docs/Web/HTML/HTML5" title="Japonés">日本語 (ja)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="https://developer.mozilla.org/pt-PT/docs/Web/HTML/HTML5" title="Portuguese (Portugal)">Português (Europeu) (pt-PT)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="https://developer.mozilla.org/fr/docs/Web/Guide/HTML/HTML5" title="Francés">Français (fr)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="https://developer.mozilla.org/zh-TW/docs/Web/HTML/HTML5" title="Chinese (Traditional)">正體中文 (繁體) (zh-TW)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="https://developer.mozilla.org/ko/docs/Web/HTML/HTML5" title="Koreano">한국어 (ko)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5" title="Portuguese (Brazilian)">Português (do&nbsp;Brasil) (pt-BR)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="https://developer.mozilla.org/fa/docs/HTML/HTML5" title="Persa">فارسی (fa)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="https://developer.mozilla.org/ru/docs/HTML/HTML5" title="Ruso">Русский (ru)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="https://developer.mozilla.org/tr/docs/Web/HTML/HTML5" title="Turco">Türkçe (tr)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="https://developer.mozilla.org/it/docs/Web/HTML/HTML5" title="Italiano">Italiano (it)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="https://developer.mozilla.org/zh-CN/docs/Web/Guide/HTML/HTML5" title="Chinese (Simplified)">中文 (简体) (zh-CN)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="https://developer.mozilla.org/bn-BD/docs/HTML/HTML5" title="Bengali (Bangladesh)">বাংলা (বাংলাদেশ) (bn-BD)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="https://developer.mozilla.org/de/docs/Web/HTML/HTML5" title="Alemán">Deutsch (de)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="https://developer.mozilla.org/cs/docs/cs_HTML/HTML5" title="Checo">Čeština (cs)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="https://developer.mozilla.org/id/docs/Web/Guide/HTML/HTML5" title="Indonesio">Bahasa Indonesia (id)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="https://developer.mozilla.org/ro/docs/Web/Guide/HTML/HTML5" title="Rumano">Română (ro)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="https://developer.mozilla.org/ar/docs/Web/Guide/HTML/HTML5" title="Árabe">عربي (ar)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="https://developer.mozilla.org/he/docs/Web/Guide/HTML/HTML5" title="Hebreo">עברית (he)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="https://developer.mozilla.org/az/docs/Web/Guide/HTML/HTML5" title="Azerbaiyán">Azərbaycanca (az)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="https://developer.mozilla.org/my/docs/Web/Guide/HTML/HTML5" title="Birmano">မြန်မာဘာသာ (my)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="https://developer.mozilla.org/nl/docs/Web/Guide/HTML/HTML5" title="Holandés">Nederlands (nl)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="https://developer.mozilla.org/hr/docs/Web/Guide/HTML/HTML5" title="Croata">Hrvatski (hr)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="https://developer.mozilla.org/uk/docs/Web/Guide/HTML/HTML5" title="Ucraniano">Українська (uk)</a></bdi></li>
+                
+              
+
+              
+            </ul>
+          </div>
+        </div>
+      </li>
+
+      
+      <li class="page-buttons-edit"><a href="https://developer.mozilla.org/es/docs/HTML/HTML5$edit" class="button" data-optimizely-hook="button-edit-doc" id="edit-button">Editar<i aria-hidden="true" class="icon-pencil"></i></a></li>
+      
+
+        
+
+        <li><button id="advanced-menu" class="only-icon" aria-haspopup="true" aria-owns="advanced-menu-submenu" aria-expanded="false"><span>Avanzado</span><i aria-hidden="true" class="icon-cog"></i></button>
+        <div class="submenu js-submenu" id="advanced-menu-submenu">
+          <!-- this page -->
+          <div class="submenu-column">
+            <div class="title">Avanzado</div>
+            <ul>
+                <li><a href="https://developer.mozilla.org/es/docs/HTML/HTML5$history" rel="nofollow, noindex">Historial</a></li>
+                
+                
+                
+
+
+                
+
+                
+                
+                
+                <li class="page-print"><a href="https://developer.mozilla.org/es/docs/HTML/HTML5#" onclick="return window.print();">Imprimir este artículo</a></li>
+            </ul>
+          </div>
+        </div>
+  </li></ul>
+
+        <!-- crumbs -->
+        
+  <nav class="crumbs" role="navigation"><ol xmlns:v="http://rdf.data-vocabulary.org/#" aria-label="hilos de araña">
+    <li typeof="v:Breadcrumb"><a href="https://developer.mozilla.org/es" rel="v:url" property="v:title">MDN</a></li>
+    
+      <li class="crumb" typeof="v:Breadcrumb"><a href="https://developer.mozilla.org/es/docs/Web" rel="v:url" property="v:title">Tecnología Web para desarrolladores</a></li>
+    
+      <li class="crumb" typeof="v:Breadcrumb"><a href="https://developer.mozilla.org/es/docs/Web/Guide" rel="v:url" property="v:title">Guía de Desarrollo Web</a></li>
+    
+      <li class="crumb" typeof="v:Breadcrumb"><a href="https://developer.mozilla.org/es/docs/Web/Guide/HTML" rel="v:url" property="v:title">Guía del desarrollador HTML</a></li>
+    
+    <li class="crumb" typeof="v:Breadcrumb" property="v:title">HTML5</li>
+  </ol></nav>
+      </div>
+
+      <!-- heading -->
+      <div id="wiki-document-head" class="document-head">
+          <span class="from-search-previous-box">
+            <a class="button from-search-previous only-icon disabled" title="Resultado anterior de la búsqueda" data-empty-title="No hay resultados anteriores de la búsqueda"><i aria-hidden="true" class="icon-chevron-left"></i></a>
+          </span>
+          <span class="from-search-navigate-wrap">
+            <a href="https://developer.mozilla.org/es/docs/HTML/HTML5#" class="from-search-navigate"><span class="from-search-navigate-up"><i aria-hidden="true" class="icon-double-angle-up"></i></span><span class="from-search-navigate-down"><i aria-hidden="true" class="icon-double-angle-down"></i></span></a>
+          </span>
+          <div class="from-search-toc submenu">
+            <span class="title">Los resultados de tu búsqueda</span>
+            <ol></ol>
+          </div>
+          <span class="from-search-next-box">
+            <a class="button from-search-next only-icon disabled" title="Siguiente resultado de la búsqueda" data-empty-title="No hay resultados anteriores de la búsqueda"><i aria-hidden="true" class="icon-chevron-right"></i></a>
+          </span>
+
+        
+        <div class="contributor-avatars" data-all-text="ver todos los colaboradores" data-alternate-message="ocultar colaboradores" data-has-hidden="1">
+            <ul>
+            
+                <li class="shown">
+                <a href="https://developer.mozilla.org/es/profiles/rossettistone" title="Ver perfil: rossettistone">
+                <img src="./HTML5 - HTML _ MDN_files/7744af9b28934e703bd1e0ceb9c9503e" class="avatar loaded" height="34" width="34" alt="rossettistone"></a>
+                </li>
+            
+                <li class="shown">
+                <a href="https://developer.mozilla.org/es/profiles/teoli" title="Ver perfil: teoli">
+                <img src="./HTML5 - HTML _ MDN_files/d0d90148e08e3b64ccf75c46f31442c5" class="avatar loaded" height="34" width="34" alt="teoli"></a>
+                </li>
+            
+                <li class="shown">
+                <a href="https://developer.mozilla.org/es/profiles/JosueMolina" title="Ver perfil: JosueMolina">
+                <img src="./HTML5 - HTML _ MDN_files/61a5531e992cea4092c24b324da7ef32" class="avatar loaded" height="34" width="34" alt="JosueMolina"></a>
+                </li>
+            
+                <li class="shown">
+                <a href="https://developer.mozilla.org/es/profiles/Pablo_Ivan" title="Ver perfil: Pablo_Ivan">
+                <img src="./HTML5 - HTML _ MDN_files/fcea2bc8cc28e47fdd5586978a383fb9" class="avatar loaded" height="34" width="34" alt="Pablo_Ivan"></a>
+                </li>
+            
+                <li class="shown">
+                <a href="https://developer.mozilla.org/es/profiles/whitman" title="Ver perfil: whitman">
+                <img src="./HTML5 - HTML _ MDN_files/997d15cdfdcca29b83f24f7f44508f30" class="avatar loaded" height="34" width="34" alt="whitman"></a>
+                </li>
+            
+                <li class="shown">
+                <a href="https://developer.mozilla.org/es/profiles/bicentenario" title="Ver perfil: bicentenario">
+                <img src="./HTML5 - HTML _ MDN_files/ab3d9873028b5aa232ebf7f64531d269" class="avatar loaded" height="34" width="34" alt="bicentenario"></a>
+                </li>
+            
+                <li class="hidden">
+                <a href="https://developer.mozilla.org/es/profiles/jesusruiz" title="Ver perfil: jesusruiz">
+                <noscript data-width="34" data-height="34" data-class="avatar" data-alt="jesusruiz" data-src="https://secure.gravatar.com/avatar/f7a093e122974429ebd539bf4529f50d?s=34&amp;r=pg&amp;d=https%3A%2F%2Fdeveloper.cdn.mozilla.net%2Fmedia%2Fimg%2Favatar.png">jesusruiz</noscript></a>
+                </li>
+            
+                <li class="hidden">
+                <a href="https://developer.mozilla.org/es/profiles/pierre_alfonso" title="Ver perfil: pierre_alfonso">
+                <noscript data-width="34" data-height="34" data-class="avatar" data-alt="pierre_alfonso" data-src="https://secure.gravatar.com/avatar/572b72e103fe08a01bc01dd1fb442db0?s=34&amp;r=pg&amp;d=https%3A%2F%2Fdeveloper.cdn.mozilla.net%2Fmedia%2Fimg%2Favatar.png">pierre_alfonso</noscript></a>
+                </li>
+            
+                <li class="hidden">
+                <a href="https://developer.mozilla.org/es/profiles/pitufo_cabron" title="Ver perfil: pitufo_cabron">
+                <noscript data-width="34" data-height="34" data-class="avatar" data-alt="pitufo_cabron" data-src="https://secure.gravatar.com/avatar/23b27bf1279c7f625b8914a391bc51ab?s=34&amp;r=pg&amp;d=https%3A%2F%2Fdeveloper.cdn.mozilla.net%2Fmedia%2Fimg%2Favatar.png">pitufo_cabron</noscript></a>
+                </li>
+            
+                <li class="hidden">
+                <a href="https://developer.mozilla.org/es/profiles/cesar_ortiz_elPatox" title="Ver perfil: cesar_ortiz_elPatox">
+                <noscript data-width="34" data-height="34" data-class="avatar" data-alt="cesar_ortiz_elPatox" data-src="https://secure.gravatar.com/avatar/e496b202613e2d35969196a2401a60dd?s=34&amp;r=pg&amp;d=https%3A%2F%2Fdeveloper.cdn.mozilla.net%2Fmedia%2Fimg%2Favatar.png">cesar_ortiz_elPatox</noscript></a>
+                </li>
+            
+                <li class="hidden">
+                <a href="https://developer.mozilla.org/es/profiles/vigia122" title="Ver perfil: vigia122">
+                <noscript data-width="34" data-height="34" data-class="avatar" data-alt="vigia122" data-src="https://secure.gravatar.com/avatar/9d1fcec8edd6fc33e4845d49a3435cfe?s=34&amp;r=pg&amp;d=https%3A%2F%2Fdeveloper.cdn.mozilla.net%2Fmedia%2Fimg%2Favatar.png">vigia122</noscript></a>
+                </li>
+            
+                <li class="hidden">
+                <a href="https://developer.mozilla.org/es/profiles/inma_610" title="Ver perfil: inma_610">
+                <noscript data-width="34" data-height="34" data-class="avatar" data-alt="inma_610" data-src="https://secure.gravatar.com/avatar/bdc39d1a570f34b1aca764a6dd682258?s=34&amp;r=pg&amp;d=https%3A%2F%2Fdeveloper.cdn.mozilla.net%2Fmedia%2Fimg%2Favatar.png">inma_610</noscript></a>
+                </li>
+            
+                <li class="hidden">
+                <a href="https://developer.mozilla.org/es/profiles/StripTM" title="Ver perfil: StripTM">
+                <noscript data-width="34" data-height="34" data-class="avatar" data-alt="StripTM" data-src="https://secure.gravatar.com/avatar/36df6df216c29cd62d385da9abf17c26?s=34&amp;r=pg&amp;d=https%3A%2F%2Fdeveloper.cdn.mozilla.net%2Fmedia%2Fimg%2Favatar.png">StripTM</noscript></a>
+                </li>
+            
+                <li class="hidden">
+                <a href="https://developer.mozilla.org/es/profiles/deimidis" title="Ver perfil: deimidis">
+                <noscript data-width="34" data-height="34" data-class="avatar" data-alt="deimidis" data-src="https://secure.gravatar.com/avatar/8f9e7736ac3df175bf45445a8a32209a?s=34&amp;r=pg&amp;d=https%3A%2F%2Fdeveloper.cdn.mozilla.net%2Fmedia%2Fimg%2Favatar.png">deimidis</noscript></a>
+                </li>
+            
+                <li class="hidden">
+                <a href="https://developer.mozilla.org/es/profiles/Izel" title="Ver perfil: Izel">
+                <noscript data-width="34" data-height="34" data-class="avatar" data-alt="Izel" data-src="https://secure.gravatar.com/avatar/2f111b1314d9547b42248e9ae741ded8?s=34&amp;r=pg&amp;d=https%3A%2F%2Fdeveloper.cdn.mozilla.net%2Fmedia%2Fimg%2Favatar.png">Izel</noscript></a>
+                </li>
+            
+            </ul>
+        <button id="contributors-toggle" type="button" class="transparent" data-alternate-message="ocultar colaboradores">ver todos los colaboradores</button></div>
+        
+
+        <h1>HTML5</h1>
+
+      </div>
+      
+
+      <!-- start the main content container -->
+        <div id="wiki-column-container" class="wiki-right-closed wiki-right-none wiki-left-closed wiki-left-none">
+
+          <!-- content row with three strips -->
+          <div class="column-container column-container-reverse">
+
+            
+
+            
+            
+              
+            
+
+            <!-- center: main article content -->
+            <div id="wiki-content" class="column-all wiki-column text-content">
+
+              
+
+              
+
+              
+                
+                
+                
+              
+              
+
+              <!-- just the article content -->
+              <article id="wikiArticle">
+                
+                  
+                    <p style="line-height: 22px;"><span class="seoSummary"><strong>HTML5&nbsp;</strong>&nbsp;<span style="line-height: 21px;">es la última versión de</span> <a href="https://developer.mozilla.org/en-US/docs/HTML" title="HTML">HTML</a>.&nbsp;</span><span style="line-height: 21px;">El término representa dos conceptos diferentes:</span></p>
+
+<ul style="line-height: 22px;">
+ <li><span class="seoSummary">Se trata de una nueva versión de&nbsp;HTML, con nuevos elementos, atributos y comportamientos.</span></li>
+ <li><span class="seoSummary">Contiene un conjunto más amplio de tecnologías que permite a los sitios Web y a las aplicaciones ser más diversas y de gran alcance.</span>&nbsp;A este conjunto se le llama&nbsp;<em>HTML5 y amigos</em>, a menudo reducido a <em>HTML5</em>&nbsp;.</li>
+</ul>
+
+<p style="line-height: 22px;"><span style="line-height: 21px;">Diseñado para ser utilizable por todos los desarrolladores de Open Web, esta página referencía a numerosos recursos sobre las tecnologías de HTML5, que se clasifican en varios grupos según su función.</span></p>
+
+<ul style="line-height: 22px;">
+ <li><em>Semántica</em>: Permite describir con mayor precisión cual es su contenido.</li>
+ <li><em>Conectividad</em>: Permite comunicarse con el servidor de formas nuevas e innovadoras.</li>
+ <li><em>Sin conexión&nbsp;y almacenamiento</em>: Permite a las páginas web almacenar datos&nbsp;localmente&nbsp;en el lado del cliente y operar sin conexión de manera más eficiente.</li>
+ <li><em>Multimedia</em>: <span style="background-color: rgb(255, 255, 255); color: rgb(77, 78, 83); display: inline !important; float: none; font-family: open sans,sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; text-align: start; text-indent: 0px; text-transform: none; white-space: normal;">Nos otorga un excelente soporte para utilizar contenido multimedia</span> como lo son audio y video nativamente.</li>
+ <li><em>Gráficos y efectos 2D/3D</em>: Proporciona una amplia gama de nuevas características que se ocupan de los gráficos en la web como lo son canvas 2D, WebGL, SVG, etc.</li>
+ <li><em>Rendimiento e Integración</em>: Proporciona una mayor optimización de la velocidad y un mejor uso del hardware.</li>
+ <li><em>Acceso al dispositivo</em>: Proporciona APIs para el uso de varios compomentes internos de entrada y salida de nuestro dispositivo.</li>
+ <li><em>CSS3</em>: Nos ofrece una nueva gran variedad de opciones para hacer diseños más sofisticados.</li>
+</ul>
+
+<div class="cleared row topicpage-table" style="line-height: 22px;">
+<div class="section" style="width: 436px;">
+<h2 id="SEMÁNTICA" style="font-family: &#39;Bebas Neue&#39;, &#39;League Gothic&#39;, Haettenschweiler, &#39;Arial Narrow&#39;, sans-serif; border: none; font-size: 24px; margin: 0px 0px 0.25em; font-weight: 200; line-height: 1; letter-spacing: 1px; text-transform: uppercase;"><img src="./HTML5 - HTML _ MDN_files/HTML5_Semantics_512.png" style="height: 64px; padding-right: 0.5em; vertical-align: middle; width: 64px;" alt="">SEMÁNTICA</h2>
+
+<dl>
+ <dt><a href="https://developer.mozilla.org/es/docs/Sections_and_Outlines_of_an_HTML5_document" title="Sections and Outlines of an HTML5 document">Secciones y contenidos en HTML5</a></dt>
+ <dd>Un vistazo al nuevo esquema&nbsp;de un documento HTML5:&nbsp;<span style="line-height: 1.572;"><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/section" title="El elemento de HTML section (&lt;section&gt;) representa una sección genérica de un documento, es decir, sirve para agrupar contenidos que comparten un mismo tema; típicamente, estos llevan un título de sección."><code>&lt;section&gt;</code></a>, <a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/article" title="El Elemento article de HTML (&lt;article&gt;) representa una composición auto-contenida en un documento, página, una aplicación o en el sitio, que se destina a distribuir de forma independiente o reutilizable, por ejemplo, en la sindicación. Podría ser un mensaje en un foro, un artículo de una revista o un periódico, una entrada de blog, un comentario de un usuario, un widget interactivo o gadget, o cualquier otro elemento independiente del contenido."><code>&lt;article&gt;</code></a>, <a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/nav" title="Descripción"><code>&lt;nav&gt;</code></a>, <a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/header" title="El elemento de HTML Header (&lt;header&gt;) representa un grupo de ayudas introductorias o de navegación. Puede contener algunos elementos de encabezado, pero también otros elementos como un logo, una sección que aglutine secciones de encabezados, una formulario de búsqueda o cosas parecidas."><code>&lt;header&gt;</code></a>, <a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/footer" title="El Elemento HTML Footer (&lt;footer&gt;) representa un pie de página para el contenido de sección más cercano o el elemento  raíz de sección (p.e, su ancestro mas cercano &lt;article&gt;, &lt;aside&gt;, &lt;nav&gt;, &lt;section&gt;,&lt;blockquote&gt;, &lt;body&gt;, &lt;details&gt;, &lt;fieldset&gt;, &lt;figure&gt;, &lt;td&gt;). Un pie de página típicamente contiene información acerca de el autor de la sección, datos de derechos de autor o enlaces a documentos relacionados."><code>&lt;footer&gt;</code></a>, <a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/aside" title=""><code>&lt;aside&gt;</code></a>.</span></dd>
+</dl>
+
+<dl>
+ <dt><a href="https://developer.mozilla.org/es/docs/HTML/HTML5/Formularios_en_HTML5" title="Forms in HTML5">Formularios en HTML5</a></dt>
+ <dd>Un mirada a la mejora de los formularios web en HTML5: La API de validación de restricción, varios atributos nuevos, nuevos valores para el<span style="line-height: 1.572;">&nbsp;<a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/input" title="La documentación acerca de este tema no ha sido escrita todavía . ¡Por favor  considera contribuir !"><code>&lt;input&gt;</code></a> como el atributo <code><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/input#attr-type" class="new">type</a></code> y el nuevo&nbsp;elemento <a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/output" class="new" title="La documentación acerca de este tema no ha sido escrita todavía . ¡Por favor  considera contribuir !"><code>&lt;output&gt;</code></a>.</span></dd>
+ <dt><span style="line-height: 1.572;">Nuevos elementos semánticos</span></dt>
+ <dd>Junto a las secciones , los medios de comunicación y elementos de formularios, se crearon muchos nuevos elementos como: <a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/mark" title="El  Elemento HTML Mark  &lt;mark&gt; representa un texto resaltado, es decir, una ejecución de texto marcado para referencia, debido a su relevancia en un contexto particular. Por ejemplo, se puede utilizar en una página que muestra los resultados de búsqueda para resaltar cada uno de estos por palabra."><code>&lt;mark&gt;</code></a>, <a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/figure" title=""><code>&lt;figure&gt;</code></a>, <a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/figcaption" title="El elemento HTML &lt;figcaption&gt;  representa un subtítulo o leyenda asociado con una imagen o ilustración descrita por el resto de los datos asociados con el elemento &lt;figure&gt; que sea su ancestro inmediato, lo que significa que &lt;figcaption&gt; puede ser el primer elemento dentro un bloque &lt;figure&gt; . Además el  Elemento HTML Figcaption  es opcional; y si no se especifica, el elemento padre  figure no tendrá leyenda."><code>&lt;figcaption&gt;</code></a>, <a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/data" title="El Elemento HTML   vincula un contenido dado, con una traducción legible por la máquina. Si el contenido es el tiempo o con fechas relacionadas, el &lt;time&gt; debe ser utilizado."><code>&lt;data&gt;</code></a>, <a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/time" title="Descripción"><code>&lt;time&gt;</code></a>, <a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/output" class="new" title="La documentación acerca de este tema no ha sido escrita todavía . ¡Por favor  considera contribuir !"><code>&lt;output&gt;</code></a>, <a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/progress" title="La etiqueta HTML &lt;progress&gt; se utiliza para visualizar el progreso de una tarea. Aunque los detalles de como se muestran depende directamente del navegador que utiliza el cliente, aunque básicamente aparece una barra de progreso."><code>&lt;progress&gt;</code></a>, o <a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/meter" class="new" title="La documentación acerca de este tema no ha sido escrita todavía . ¡Por favor  considera contribuir !"><code>&lt;meter&gt;</code></a>, aumentando la cantidad de&nbsp;<a href="https://developer.mozilla.org/en-US/docs/HTML/HTML5/HTML5_element_list" title="HTML/HTML5/HTML5_element_list">elementos de HTML5 validos</a>.
+ <dl>
+  <dt>Mejora en <a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/iframe" title="El elemento HTML inline frame (&lt;iframe&gt;) representa un contexto de navegación anidada, el cual permite incorporar otra página HTML en la página actual. Cada contexto de navegación tiene su propia historia, sesión y documento activo. El contexto de navegación que incluye el contenido implícito se llama contexto de navegación principal. El contexto de navegación de nivel superior (que no tiene padre) es típicamente la ventana del navegador."><code>&lt;iframe&gt;</code></a></dt>
+  <dd>Uso de atributos de <code><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/iframe#attr-sandbox" class="new">sandbox</a></code>, <code><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/iframe#attr-seamless" class="new">seamless</a></code>, y &nbsp;<code><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/iframe#attr-srcdoc" class="new">srcdoc</a></code> los autores ahora pueden precisar el nivel de seguridad y la reproduccion deseada de un elemento <a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/iframe" title="El elemento HTML inline frame (&lt;iframe&gt;) representa un contexto de navegación anidada, el cual permite incorporar otra página HTML en la página actual. Cada contexto de navegación tiene su propia historia, sesión y documento activo. El contexto de navegación que incluye el contenido implícito se llama contexto de navegación principal. El contexto de navegación de nivel superior (que no tiene padre) es típicamente la ventana del navegador."><code>&lt;iframe&gt;</code></a>.</dd>
+  <dt><a href="https://developer.mozilla.org/en-US/docs/MathML" title="MathML">MathML</a></dt>
+  <dt>Permite integrar directamente fòrmulas matemáticas.</dt>
+  <dd>&nbsp;</dd>
+  <dt><a href="https://developer.mozilla.org/en-US/docs/HTML/HTML5/Introduction_to_HTML5" title="HTML/HTML5/Introduction_to_HTML5">Introducción a HTML5</a></dt>
+  <dd><span id="result_box" lang="es"><span class="hps">En este artículo</span> <span class="hps">se explica cómo</span> <span class="hps">indicar al</span> <span class="hps">navegador</span> <span class="hps">que está utilizando</span> <span class="hps">HTML5</span> <span class="hps">en</span> <span class="hps">su diseño web</span> <span class="hps">o aplicación web</span><span>.</span></span></dd>
+  <dt><a href="https://developer.mozilla.org/en-US/docs/HTML/HTML5/HTML5_Parser" title="HTML/HTML5/HTML5 parser">Analizador de HTML5 compatible</a></dt>
+  <dd>El programa de análisis, lo que convierte los bytes de un documento HTML en un DOM, se ha ampliado y ahora define con precisión el comportamiento a utilizar en todos los casos, incluso cuando se trata de HTML inválido.&nbsp;Esto conduce a una mayor previsibilidad e interoperabilidad entre los navegadores compatibles con HTML5.</dd>
+ </dl>
+
+ <h2 id="CONECTIVIDAD" style="font-family: &#39;Bebas Neue&#39;, &#39;League Gothic&#39;, Haettenschweiler, &#39;Arial Narrow&#39;, sans-serif; border: none; font-size: 24px; margin: 0px 0px 0.25em; font-weight: 200; line-height: 1; letter-spacing: 1px; text-transform: uppercase;"><img src="./HTML5 - HTML _ MDN_files/HTML5_Connectivity_512.png" style="height: 64px; padding-right: 0.5em; vertical-align: middle; width: 64px;" alt="">CONECTIVIDAD</h2>
+
+ <dl>
+  <dt><a href="https://developer.mozilla.org/en-US/docs/WebSockets" title="WebSockets">Web Sockets</a></dt>
+  <dd>Permite crear una conexión permanente entre la página y el servidor e intercambiar datos no HTML a través de ese medio.</dd>
+  <dt><a href="https://developer.mozilla.org/en-US/docs/Server-sent_events/Using_server-sent_events" title="Server-sent_events/Using_server-sent_events">Eventos de servidor enviados</a></dt>
+  <dd>Permite a un servidor "colocar" eventos en un cliente, en lugar del clásico paradigma&nbsp; donde el servidor podría enviar datos sólo en respuesta a la petición de un cliente.</dd>
+  <dt><a href="https://developer.mozilla.org/en-US/docs/WebRTC" title="WebRTC">WebRTC</a></dt>
+  <dd>Esta tecnología, donde RTC es sinónimo de comunicación en tiempo real, permite conectar con otras personas y servicio de videoconferencia de control directamente en el navegador, sin necesidad de un plugin o una aplicación externa.</dd>
+ </dl>
+
+ <h2 id="Sin_Conexión_Y_ALMACENAMIENTO" style="font-family: &#39;Bebas Neue&#39;, &#39;League Gothic&#39;, Haettenschweiler, &#39;Arial Narrow&#39;, sans-serif; border: none; font-size: 24px; margin: 0px 0px 0.25em; font-weight: 200; line-height: 1; letter-spacing: 1px; text-transform: uppercase;"><img src="./HTML5 - HTML _ MDN_files/HTML5_Offline_Storage_512.png" style="height: 64px; padding-right: 0.5em; vertical-align: middle; width: 64px;" alt="">Sin Conexión&nbsp;Y ALMACENAMIENTO</h2>
+
+ <dl>
+  <dt><a href="https://developer.mozilla.org/en-US/docs/HTML/Using_the_application_cache" title="Offline_resources_in_Firefox">Recursos sin conexión: el caché de la aplicación</a></dt>
+  <dd>Firefox es totalmente compatible con la especificación de recursos sin conexión de HTML5.&nbsp;La mayoría de los otros recursos sin conexión tienen soporte en un cierto nivel.</dd>
+  <dt><a href="https://developer.mozilla.org/en-US/docs/Online_and_offline_events" title="Online_and_offline_events">Eventos &nbsp;con y sin coneción</a></dt>
+  <dd>Firefox 3 soporta WHATWG, eventos con y sin conexión, que permiten a las aplicaciones y extensiones detectar si hay o no una conexión a Internet, así como tambien, detectar cuando la conexión se pierde o se recupera.</dd>
+  <dt><a href="https://developer.mozilla.org/en-US/docs/DOM/Storage" title="DOM / Almacenamiento">WHATWG sesión del lado cliente y el almacenamiento continuo (Almacenamiento DOM)</a></dt>
+  <dd>Sesión del lado del cliente y el almacenamiento continuo permite a las aplicaciones web almacenar datos estructurados en el lado del cliente.</dd>
+  <dt><a href="https://developer.mozilla.org/en-US/docs/IndexedDB" title="IndexedDB">IndexedDB</a></dt>
+  <dd>Es un estándar de Internet para el almacenamiento de grandes cantidades de datos estructurados en el navegador y para las búsquedas de alto rendimiento de estos datos mediante índices.</dd>
+  <dt><a href="https://developer.mozilla.org/en-US/docs/Using_files_from_web_applications" title="Using_files_from_web_applications">Uso de archivos desde aplicaciones web</a></dt>
+  <dd>El soporte para la nueva API de archivos de HTML5 ha sido añadido a Gecko, por lo que es posible que las aplicaciones de Internet accedan a los archivos locales seleccionados por el usuario.&nbsp;Esto incluye el apoyo para la selección de varios archivos utilizando el<span style="line-height: 1.572;">&nbsp;</span><span style="font-family: monospace; line-height: 1.572;"><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/input" title="La documentación acerca de este tema no ha sido escrita todavía . ¡Por favor  considera contribuir !"><code>&lt;input&gt;</code></a></span><span style="line-height: 1.572;">&nbsp;de&nbsp;</span><strong style="line-height: 1.572;"><a href="https://developer.mozilla.org/en-US/docs/HTML/Element/Input#attr-type" title="HTML/Element/input#attr-type" style="line-height: 1.572;">tipo</a></strong><span style="line-height: 1.572;"> <em>file</em> </span>del elemento HTML&nbsp;<strong style="line-height: 1.572;"><a href="https://developer.mozilla.org/en-US/docs/HTML/Element/Input#attr-multiple" title="HTML/Element/input#attr-multiple" style="line-height: 1.572;">múltiple</a>s&nbsp;</strong><span style="line-height: 1.572;">atributos.&nbsp;</span>También esta<span style="line-height: 1.572;"> </span><a href="https://developer.mozilla.org/en-US/docs/DOM/FileReader" title="DOM/FileReader" style="line-height: 1.572;"><code style="font-size: 14px;">FileReader</code></a><span style="line-height: 1.572;">.</span></dd>
+ </dl>
+
+ <h2 id="MULTIMEDIA" style="font-family: &#39;Bebas Neue&#39;, &#39;League Gothic&#39;, Haettenschweiler, &#39;Arial Narrow&#39;, sans-serif; border: none; font-size: 24px; margin: 0px 0px 0.25em; font-weight: 200; line-height: 1; letter-spacing: 1px; text-transform: uppercase;"><img src="./HTML5 - HTML _ MDN_files/HTML5_Multimedia_512.png" style="height: 64px; padding-right: 0.5em; vertical-align: middle; width: 64px;" alt="">MULTIMEDIA</h2>
+
+ <dl>
+  <dt><a href="https://developer.mozilla.org/en-US/docs/Using_HTML5_audio_and_video" title="Using_audio_and_video_in_Firefox">Usando HTML5 de audio y video</a></dt>
+  <dd>Los elementos <a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/audio" title="El elemento audio se usa para insertar contenido de audio en un documento HTML o XHTML. El elemento audio se agregó como parte de HTML 5."><code>&lt;audio&gt;</code></a> y <a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/video" title=""><code>&lt;video&gt;</code></a> permiten la manipulación de nuevos contenidos multimedia.
+  <dl>
+   <dt>&nbsp;</dt>
+   <dt><a href="https://developer.mozilla.org/en-US/docs/WebRTC" title="WebRTC">WebRTC</a></dt>
+   <dd>Esta tecnología, donde RTC es sinónimo de comunicación en tiempo real, permite conectar con otras personas y controlar servicios de videoconferencia directamente en el navegador, sin necesidad de un plugin o una aplicación externa.</dd>
+   <dt><a href="https://developer.mozilla.org/en-US/docs/DOM/Using_the_Camera_API" title="DOM / Using_the_Camera_API">Usando la API de la cámara</a></dt>
+   <dd>Permite utilizar, manipular y almacenar una imagen de la cámara del ordenador.</dd>
+   <dt>Track and WebVTT</dt>
+   <dd>El elemento <a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/track" class="new" title="La documentación acerca de este tema no ha sido escrita todavía . ¡Por favor  considera contribuir !"><code>&lt;track&gt;</code></a>&nbsp;permite subtítulos y capítulos.&nbsp;<a href="https://developer.mozilla.org/en-US/docs/HTML/WebVTT" title="HTML/WebVTT">WebVTT</a>&nbsp;<span style="line-height: 1.572;">es un formato de pista de texto.</span></dd>
+  </dl>
+
+  <h2 id="3D_GRAFICOS_EFECTOS" style="font-family: &#39;Bebas Neue&#39;, &#39;League Gothic&#39;, Haettenschweiler, &#39;Arial Narrow&#39;, sans-serif; border: none; font-size: 24px; margin: 0px 0px 0.25em; font-weight: 200; line-height: 1; letter-spacing: 1px; text-transform: uppercase;"><img src="./HTML5 - HTML _ MDN_files/HTML5_3D_Effects_512.png" style="height: 64px; padding-right: 0.5em; vertical-align: middle; width: 64px;" alt="">3D, GRAFICOS &amp; EFECTOS</h2>
+
+  <dl>
+   <dt><a href="https://developer.mozilla.org/en-US/docs/Canvas_tutorial" title="Canvas tutorial">Canvas Tutorial</a></dt>
+   <dd>Conozca el nuevo elemento&nbsp;<span style="font-family: courier new,andale mono,monospace; line-height: normal;"><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/canvas" title=""><code>&lt;canvas&gt;</code></a></span>&nbsp; y cómo dibujar gráficos y otros objetos en Firefox</dd>
+   <dt><a href="https://developer.mozilla.org/en-US/docs/Drawing_text_using_a_canvas" title="Drawing_text_using_a_canvas">API de texto para elementos&nbsp;<code style="font-size: 14px;">&lt;canvas&gt;</code>&nbsp;</a></dt>
+   <dd>El API de texto HTML5 es ahora compatible con elementos <a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/canvas" title=""><code>&lt;canvas&gt;</code></a>&nbsp;.</dd>
+   <dt><a href="https://developer.mozilla.org/en-US/docs/WebGL" title="WebGL">WebGL</a></dt>
+   <dd>WebGL trae gráficos en 3D para la Web mediante la introducción de una API que se ajusta estrechamente a OpenGL ES 2.0 que se puede utilizar en elementos <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/canvas"><code style="font-size: 14px;">&lt;canvas&gt;</code></a> HTML5&nbsp; .</dd>
+   <dt><a href="https://developer.mozilla.org/en-US/docs/SVG" title="SVG">SVG</a></dt>
+   <dd>Un formato basado en XML de imágenes vectoriales que directamente se pueden incrustar en el código HTML.</dd>
+   <dt>&nbsp;</dt>
+  </dl>
+  </dd>
+ </dl>
+ </dd>
+</dl>
+</div>
+
+<div class="section" style="width: 435px;">
+<h2 id="RESULTADOS_e_INTEGRACIÓN" style="font-family: &#39;Bebas Neue&#39;, &#39;League Gothic&#39;, Haettenschweiler, &#39;Arial Narrow&#39;, sans-serif; border: none; font-size: 24px; margin: 0px 0px 0.25em; font-weight: 200; line-height: 1; letter-spacing: 1px; text-transform: uppercase;"><img src="./HTML5 - HTML _ MDN_files/HTML5_Performance_512.png" style="height: 64px; padding-right: 0.5em; vertical-align: middle; width: 64px;" alt="">RESULTADOS e INTEGRACIÓN</h2>
+
+<dl>
+ <dt><a href="https://developer.mozilla.org/en-US/docs/DOM/Using_web_workers" title="Using web workers">Web Workers</a></dt>
+ <dd>Permite delegar la evaluación JavaScript para subprocesos en segundo plano, lo que evita que estas actividades ralenticen eventos interactivos.</dd>
+ <dt><code style="font-size: 14px;"><a href="https://developer.mozilla.org/en-US/docs/DOM/XMLHttpRequest" title="XMLHttpRequest">XMLHttpRequest</a></code>&nbsp;Nivel 2</dt>
+ <dd>Permite buscar de forma asíncrona algunas partes de la página, mostrando contenido dinámico, que varía según el tiempo y las acciones del usuario.&nbsp;Esta es la tecnología detrás de<span style="line-height: 1.572;">&nbsp;</span><a href="https://developer.mozilla.org/en-US/docs/AJAX" title="AJAX" style="line-height: 1.572;">Ajax</a><span style="line-height: 1.572;">.</span></dd>
+</dl>
+
+<dl>
+ <dt>Motores JIT compilación de JavaScript</dt>
+ <dd>La nueva generación de motores de JavaScript son mucho más poderosos, lo que lleva a un mayor rendimiento.</dd>
+ <dt><a href="https://developer.mozilla.org/en-US/docs/DOM/Manipulating_the_browser_history" title="DOM/Manipulating_the_browser_history">History API</a></dt>
+ <dd>Permite la manipulación del historial del navegador.&nbsp;Esto es especialmente útil para la carga interactivamente nueva información en&nbsp;las páginas.</dd>
+ <dt><a href="https://developer.mozilla.org/en-US/docs/HTML/Content_Editable" title="HTML / contenido editable">El atributo contentEditable: transformar su sitio web en una wiki!</a></dt>
+ <dd>HTML5 ha estandarizado el atributo contentEditable. Aprenda más sobre esta opción.</dd>
+ <dt><a href="https://developer.mozilla.org/en-US/docs/DragDrop/Drag_and_Drop" title="DragDrop / Drag_and_Drop">Arrastrar y soltar</a></dt>
+ <dd>La API de arrastrar y soltar (drag and drop) permite soporte para arrastrar y soltar elementos dentro y entre sitios web.&nbsp;Esto también proporciona una API simple para el uso de extensiones y aplicaciones basadas ​​en Mozilla.</dd>
+ <dt><a href="https://developer.mozilla.org/en-US/docs/Focus_management_in_HTML" title="Focus_management_in_HTML">Gestión del foco en HTML</a></dt>
+ <dd>Los nuevos atributos HTML5&nbsp;<code style="font-size: 14px;">activeElement</code>&nbsp;y&nbsp;<code style="font-size: 14px;">hasFocus</code> son soportados.</dd>
+ <dt><a href="https://developer.mozilla.org/en-US/docs/Web-based_protocol_handlers" title="Web-based_protocol_handlers">Manejadores de protocolo basados ​​en web</a></dt>
+ <dd>Ahora puede registrar las aplicaciones web como controladores de protocolo utilizando el metodo <code style="font-size: 14px;">navigator.registerProtocolHandler()</code>.</dd>
+ <dt><a href="https://developer.mozilla.org/en-US/docs/DOM/window.requestAnimationFrame" title="DOM/window.requestAnimationFrame"><code style="font-size: 14px;">requestAnimationFrame</code></a></dt>
+ <dd>Permite controlar la renderización de&nbsp; animaciones para obtener un óptimo rendimiento.</dd>
+ <dt><a href="https://developer.mozilla.org/en-US/docs/DOM/Using_full-screen_mode" title="DOM/Using_full-screen_mode">Fullscreen API</a></dt>
+ <dd>Controla el uso de la pantalla completa de una página Web o aplicación, sin la interfáz de usuario del explorador mostrada.</dd>
+ <dt><a href="https://developer.mozilla.org/en-US/docs/API/Pointer_Lock_API" title="API / Pointer_Lock_API">API Pointer Lock</a></dt>
+ <dd>Permite bloquear el puntero al contenido, por lo que los juegos y aplicaciones similares no pierden el foco cuando el puntero alcanza el límite de la ventana.</dd>
+ <dt><a href="https://developer.mozilla.org/en-US/docs/Online_and_offline_events" title="Online_and_offline_events">Eventos en línea y fuera de línea</a></dt>
+ <dd>
+ <dl style="margin: 0px 0px 1.286em; padding: 0px;">
+  <dd style="padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">Para construir una buena aplicación web offline-funcional, lo que necesita saber cuando su aplicación esta realmente sin conexión.&nbsp;Dicho sea de paso, también es necesario saber cuando su solicitud sea devuelta a un estado de conexión de nuevo.</dd>
+ </dl>
+ </dd>
+</dl>
+
+<h2 id="ACCESO_al_dispositivo" style="font-family: &#39;Bebas Neue&#39;, &#39;League Gothic&#39;, Haettenschweiler, &#39;Arial Narrow&#39;, sans-serif; border: none; font-size: 24px; margin: 0px 0px 0.25em; font-weight: 200; line-height: 1; letter-spacing: 1px; text-transform: uppercase;"><img src="./HTML5 - HTML _ MDN_files/HTML5_Device_Access_512.png" style="height: 64px; padding-right: 0.5em; vertical-align: middle; width: 64px;" alt="">ACCESO al dispositivo</h2>
+
+<dl>
+ <dt><a href="https://developer.mozilla.org/en-US/docs/DOM/Using_the_Camera_API" title="DOM / Using_the_Camera_API">Usando la API de la cámara</a></dt>
+ <dd>Permite utilizar, manipular y almacenar una imagen de la cámara del ordenador.</dd>
+ <dt><a href="https://developer.mozilla.org/en-US/docs/DOM/Touch_events" title="DOM / Touch_events">Eventos táctiles</a></dt>
+ <dd>Manipuladores para reaccionar a los eventos creados por un usuario cuando pulsa pantallas táctiles.</dd>
+ <dt><a href="https://developer.mozilla.org/en-US/docs/Using_geolocation" title="El uso de geolocalización">El uso de geolocalización</a></dt>
+ <dd>Permite a los navegadores localizar la posición del usuario mediante geolocalización.</dd>
+ <dt><a href="https://developer.mozilla.org/en-US/docs/Detecting_device_orientation" title="Detecting_device_orientation">Detección de la orientación del dispositivo</a></dt>
+ <dd>Obtiene la información cuando el dispositivo en el que se ejecuta el navegador, cambia de orientación.&nbsp;Esto puede ser utilizado como un dispositivo de entrada (por ejemplo, para hacer que los juegos que reaccionan a la posición del dispositivo) o adaptar el diseño de una página a la orientación de la pantalla (vertical u horizontal).</dd>
+ <dt><a href="https://developer.mozilla.org/en-US/docs/API/Pointer_Lock_API" title="API / Pointer_Lock_API">API Pointer Lock</a></dt>
+ <dd>Permite bloquear el puntero al contenido, por lo que los juegos y aplicaciones similares no pierden el foco cuando el puntero alcanza el límite de la ventana.</dd>
+</dl>
+
+<h2 id="CSS3_STYLING" style="font-family: &#39;Bebas Neue&#39;, &#39;League Gothic&#39;, Haettenschweiler, &#39;Arial Narrow&#39;, sans-serif; border: none; font-size: 24px; margin: 0px 0px 0.25em; font-weight: 200; line-height: 1; letter-spacing: 1px; text-transform: uppercase;"><img src="./HTML5 - HTML _ MDN_files/HTML5_Styling_512.png" style="height: 64px; padding-right: 0.5em; vertical-align: middle; width: 64px;" alt="">CSS3&nbsp;STYLING</h2>
+
+<p><a href="https://developer.mozilla.org/en-US/docs/CSS" title="CSS">CSS&nbsp;</a>&nbsp;<font>se ha ampliado para ser capaz de menajar elementos de estilo de una manera mucho más compleja.&nbsp;</font><font>Esto se refiere a menudo como</font>&nbsp;<a href="https://developer.mozilla.org/en-US/docs/CSS/CSS3" title="CSS/CSS3">CSS3</a>, &nbsp;<span style="line-height: 21px;">aunque CSS no es una especificación monolítica más y los diferentes módulos no están todos en el nivel 3: algunos están en el nivel 1 y otros en el nivel 4, con todos los niveles intermedios cubiertos.</span></p>
+
+<dl>
+ <dt>Nuevas características de diseño de fondo</dt>
+ <dd>Ahora es posible poner una sombra a un cuadro, con&nbsp;<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow"><code style="font-size: 14px;">box-shadow</code></a>&nbsp;y&nbsp;<a href="https://developer.mozilla.org/en-US/docs/CSS/Multiple_backgrounds" title="CSS / Multiple_backgrounds">varios fondos</a>&nbsp;se pueden ajustar.</dd>
+</dl>
+
+<dl>
+ <dt>Bordes mas "lujosos"</dt>
+ <dd>Ahora no sólo es posible utilizar las imágenes con los estilos de bordes, utilizando <a href="https://developer.mozilla.org/es/docs/Web/CSS/border-image" title="La propiedad de CSS   border-image permite utilizar una imágen para definir los bordes de los elementos. Esto hace que dibujarlos sea más simple y elimina la necesidad de utilizar muchas cajas en algunos casos."><code>border-image</code></a> y asociando sus propiedades asociadas a&nbsp;<span style="line-height: 1.572;">longhand</span><span style="line-height: 1.572;">,&nbsp;</span>aunque los bordes redondeados son apoyados a través de propiedades&nbsp;<span style="line-height: 1.572;"><a href="https://developer.mozilla.org/es/docs/Web/CSS/border-radius" title="La propiedad CSS border-radius permite a los desarrolladores Web definir qué tan redondeadas serán las esquinas. La redondez de cada esquina está definida usando uno o dos valores para el radio que define su forma dependiendo si es un círculo o una elipse."><code>border-radius</code></a> .</span></dd>
+ <dt>Animación de su estilo</dt>
+ <dd>Utilizando&nbsp;<a href="https://developer.mozilla.org/en-US/docs/CSS/Using_CSS_transitions" title="CSS / Using_CSS_transitions">Transiciones CSS</a>&nbsp;para animar entre los diferentes estados o utilizando&nbsp;<a href="https://developer.mozilla.org/en-US/docs/CSS/Using_CSS_animations" title="CSS / Using_CSS_animations">animaciones CSS</a>&nbsp;para animar partes de la página, sin que el evento se dispare, ahora puede controlar los elementos móviles en su página.</dd>
+ <dt>Tipografía mejorada</dt>
+ <dd>Los autores tienen un mejor control para usar la tipografía.&nbsp;Se puede controlar&nbsp;<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/text-overflow"><code style="font-size: 14px;">el texto </code></a><a href="https://developer.mozilla.org/es/docs/Web/CSS/text-overflow" class="new" title="La documentación acerca de este tema no ha sido escrita todavía . ¡Por favor  considera contribuir !"><code>text-overflow</code></a>&nbsp;y&nbsp;<a href="https://developer.mozilla.org/en-US/docs/CSS/hyphens" title="CSS / guiones">guiones</a>&nbsp;y también puede poner una<a href="https://developer.mozilla.org/en-US/docs/CSS/text-shadow" title="CSS / text-shadow"> sombra</a>&nbsp; o controlar con mayor precisión sus <a href="https://developer.mozilla.org/en-US/docs/CSS/text-decoration" title="SVG / atributo / text-decoration">decoraciones</a>&nbsp;. Los tipos de letra personalizados se pueden descargar y aplicar gracias a la nueva regla <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face"><code style="font-size: 14px;">@font-face</code></a> .</dd>
+ <dt>Nuevos diseños de presentación</dt>
+ <dd>Con el fin de mejorar la flexibilidad de los diseños, se han añadido dos nuevos diseños: el&nbsp;<a href="https://developer.mozilla.org/en-US/docs/CSS/Using_CSS_multi-column_layouts" title="CSS / Using_CSS_multi-column_layouts">CSS diseño de varias columnas</a>&nbsp;, y el&nbsp;<a href="https://developer.mozilla.org/en-US/docs/CSS/Flexbox" title="CSS / Flexbox">cuadro de distribución flexible de CSS</a>&nbsp;.</dd>
+</dl>
+</div>
+</div>
+
+<p>&nbsp;</p>
+                  
+                
+              </article>
+
+              
+
+                <!-- contributors -->
+                <div class="wiki-block contributors">
+                  <h2 class="offscreen">Etiquetas y colaboradores del documento</h2>
+                  
+                  
+  <div class="tag-attach-list contributors-sub">
+    <i aria-hidden="true" class="icon-tags icon-fw"></i>
+    <strong>Etiquetas:</strong>&nbsp;
+    <ul class="tags tags-small">
+      
+        <li><a href="https://developer.mozilla.org/es/docs/tag/API">API</a></li>
+      
+        <li><a href="https://developer.mozilla.org/es/docs/tag/conectividad">conectividad</a></li>
+      
+        <li><a href="https://developer.mozilla.org/es/docs/tag/CSS3">CSS3</a></li>
+      
+        <li><a href="https://developer.mozilla.org/es/docs/tag/graficos">graficos</a></li>
+      
+        <li><a href="https://developer.mozilla.org/es/docs/tag/Gr%C3%A1ficos">Gráficos</a></li>
+      
+        <li><a href="https://developer.mozilla.org/es/docs/tag/HTML">HTML</a></li>
+      
+        <li><a href="https://developer.mozilla.org/es/docs/tag/HTML5">HTML5</a></li>
+      
+        <li><a href="https://developer.mozilla.org/es/docs/tag/mejoras">mejoras</a></li>
+      
+        <li><a href="https://developer.mozilla.org/es/docs/tag/Multimedia">Multimedia</a></li>
+      
+        <li><a href="https://developer.mozilla.org/es/docs/tag/nuevo">nuevo</a></li>
+      
+        <li><a href="https://developer.mozilla.org/es/docs/tag/SVG">SVG</a></li>
+      
+    </ul>
+  </div>
+
+
+                  
+                    <div class="contributors-sub">
+                      <i aria-hidden="true" class="icon-group icon-fw"></i>&nbsp;<strong>Colaboradores en esta página:</strong> 
+        <a href="https://developer.mozilla.org/es/profiles/rossettistone">rossettistone</a>, 
+    
+        <a href="https://developer.mozilla.org/es/profiles/teoli">teoli</a>, 
+    
+        <a href="https://developer.mozilla.org/es/profiles/JosueMolina">JosueMolina</a>, 
+    
+        <a href="https://developer.mozilla.org/es/profiles/Pablo_Ivan">Pablo_Ivan</a>, 
+    
+        <a href="https://developer.mozilla.org/es/profiles/whitman">whitman</a>, 
+    
+        <a href="https://developer.mozilla.org/es/profiles/bicentenario">bicentenario</a>, 
+    
+        <a href="https://developer.mozilla.org/es/profiles/jesusruiz">jesusruiz</a>, 
+    
+        <a href="https://developer.mozilla.org/es/profiles/pierre_alfonso">pierre_alfonso</a>, 
+    
+        <a href="https://developer.mozilla.org/es/profiles/pitufo_cabron">pitufo_cabron</a>, 
+    
+        <a href="https://developer.mozilla.org/es/profiles/cesar_ortiz_elPatox">cesar_ortiz_elPatox</a>, 
+    
+        <a href="https://developer.mozilla.org/es/profiles/vigia122">vigia122</a>, 
+    
+        <a href="https://developer.mozilla.org/es/profiles/inma_610">inma_610</a>, 
+    
+        <a href="https://developer.mozilla.org/es/profiles/StripTM">StripTM</a>, 
+    
+        <a href="https://developer.mozilla.org/es/profiles/deimidis">deimidis</a>, 
+    
+        <a href="https://developer.mozilla.org/es/profiles/Izel">Izel</a>
+    
+                    </div>
+                  
+
+                  
+                    <div class="contributors-sub">
+                      <i aria-hidden="true" class="icon-clock-o icon-fw"></i>&nbsp;<strong>Última actualización por:</strong>
+                      <a href="https://developer.mozilla.org/es/profiles/rossettistone">rossettistone</a>,
+                      <time datetime="2016-05-12T11:33:49-07:00">12 may. 2016 11:33:49</time>
+                    </div>
+                  
+                </div>
+              
+            </div>
+
+            
+          </div>
+        </div>
+      </div>
+    </div> <!-- ends "main-content" -->
+
+  <menu type="context" id="edit-history-menu">
+    <menuitem data-action="/es/docs/HTML/HTML5$edit" label="Editar página"></menuitem>
+    <menuitem data-action="/es/docs/HTML/HTML5$history" label="Ver historial de la página"></menuitem>
+  </menu>
+
+  </div></main>
+
+  <!-- Footer -->
+  <footer><div class="center">
+    <div class="column-container">
+      <div class="column-main">
+        
+        <div class="contentinfo">
+          <p>© Mozilla Developer Network y colaboradores individuales de 2005-2016 .</p> <p>El contenido está disponible bajo <a href="https://developer.mozilla.org/en-US/docs/MDN/About#Copyrights_and_licenses">estas licencias</a>.</p>
+          <ul>
+            <li><a href="https://developer.mozilla.org/docs/MDN/About">Acerca de MDN</a></li>
+            <li><a href="https://www.mozilla.org/about/legal/terms/mozilla">Condiciones</a></li>
+            <li><a href="https://www.mozilla.org/privacy/websites/">Privacidad</a></li>
+            <li><a href="https://www.mozilla.org/privacy/websites/#cookies">Cookies</a></li>
+            <li><a href="https://github.com/mozilla/kuma">Contribuir en el código</a></li>
+          </ul>
+        <p></p>
+        
+        </div>
+      </div>
+      <div class="column-strip">
+        
+          
+  
+    <form class="languages go" method="get" action="https://developer.mozilla.org/es/docs/Web">
+      <label for="language">Otros idiomas:</label>
+      <select id="language" class="wiki-l10n" name="next" dir="ltr">
+        <option title="Español" value="/es/docs/HTML/HTML5" selected="">
+          Español (es)
+        </option>
+        
+          <option title="Polaco" value="/pl/docs/HTML/HTML5">
+            Polski (pl)
+          </option>
+          <option title="English (US)" value="/en-US/docs/Web/Guide/HTML/HTML5">
+            English (US) (en-US)
+          </option>
+          <option title="Japonés" value="/ja/docs/Web/HTML/HTML5">
+            日本語 (ja)
+          </option>
+          <option title="Portuguese (Portugal)" value="/pt-PT/docs/Web/HTML/HTML5">
+            Português (Europeu) (pt-PT)
+          </option>
+          <option title="Francés" value="/fr/docs/Web/Guide/HTML/HTML5">
+            Français (fr)
+          </option>
+          <option title="Chinese (Traditional)" value="/zh-TW/docs/Web/HTML/HTML5">
+            正體中文 (繁體) (zh-TW)
+          </option>
+          <option title="Koreano" value="/ko/docs/Web/HTML/HTML5">
+            한국어 (ko)
+          </option>
+          <option title="Portuguese (Brazilian)" value="/pt-BR/docs/Web/HTML/HTML5">
+            Português (do&nbsp;Brasil) (pt-BR)
+          </option>
+          <option title="Persa" value="/fa/docs/HTML/HTML5">
+            فارسی (fa)
+          </option>
+          <option title="Ruso" value="/ru/docs/HTML/HTML5">
+            Русский (ru)
+          </option>
+          <option title="Turco" value="/tr/docs/Web/HTML/HTML5">
+            Türkçe (tr)
+          </option>
+          <option title="Italiano" value="/it/docs/Web/HTML/HTML5">
+            Italiano (it)
+          </option>
+          <option title="Chinese (Simplified)" value="/zh-CN/docs/Web/Guide/HTML/HTML5">
+            中文 (简体) (zh-CN)
+          </option>
+          <option title="Bengali (Bangladesh)" value="/bn-BD/docs/HTML/HTML5">
+            বাংলা (বাংলাদেশ) (bn-BD)
+          </option>
+          <option title="Alemán" value="/de/docs/Web/HTML/HTML5">
+            Deutsch (de)
+          </option>
+          <option title="Checo" value="/cs/docs/cs_HTML/HTML5">
+            Čeština (cs)
+          </option>
+          <option title="Indonesio" value="/id/docs/Web/Guide/HTML/HTML5">
+            Bahasa Indonesia (id)
+          </option>
+          <option title="Rumano" value="/ro/docs/Web/Guide/HTML/HTML5">
+            Română (ro)
+          </option>
+          <option title="Árabe" value="/ar/docs/Web/Guide/HTML/HTML5">
+            عربي (ar)
+          </option>
+          <option title="Hebreo" value="/he/docs/Web/Guide/HTML/HTML5">
+            עברית (he)
+          </option>
+          <option title="Azerbaiyán" value="/az/docs/Web/Guide/HTML/HTML5">
+            Azərbaycanca (az)
+          </option>
+          <option title="Birmano" value="/my/docs/Web/Guide/HTML/HTML5">
+            မြန်မာဘာသာ (my)
+          </option>
+          <option title="Holandés" value="/nl/docs/Web/Guide/HTML/HTML5">
+            Nederlands (nl)
+          </option>
+          <option title="Croata" value="/hr/docs/Web/Guide/HTML/HTML5">
+            Hrvatski (hr)
+          </option>
+          <option title="Ucraniano" value="/uk/docs/Web/Guide/HTML/HTML5">
+            Українська (uk)
+          </option>
+      </select>
+      <noscript>&lt;button type="submit"&gt;Ir&lt;/button&gt;</noscript>
+    </form>
+  
+
+        
+      </div>
+    </div>
+  </div></footer>
+
+  <!-- site js -->
+  
+    
+    <!--[if lte IE 8]><script type="text/javascript" src="https://developer.cdn.mozilla.net/static/build/js/selectivizr.091e18cf669b.js" charset="utf-8"></script><![endif]-->
+
+    <form id="_persona_login" method="post" action="https://developer.mozilla.org/users/persona/signin" data-csrf-token-url="/users/persona/csrf" data-request="{&quot;siteName&quot;: &quot;Mozilla Developer Network&quot;, &quot;siteLogo&quot;: &quot;/static/img/opengraph-logo.png&quot;}" data-persona-script="https://login.persona.org/include.js">
+  <input type="hidden" name="csrfmiddlewaretoken" value="" id="_persona_csrf_token">
+  <input type="hidden" name="next" value="" id="_persona_next_url">
+  <input type="hidden" name="process" value="" id="_persona_process">
+  <input type="hidden" name="assertion" id="_persona_assertion">
+</form>
+
+
+    <script type="text/javascript" src="./HTML5 - HTML _ MDN_files/main.a7b27a25fb9c.js" charset="utf-8"></script>
+
+      <script>
+        if(window.mdn && mdn.analytics) mdn.analytics.trackOutboundLinks();
+      </script>
+
+    
+    <script type="text/javascript" src="./HTML5 - HTML _ MDN_files/javascript.3921553ee25c.js"></script>
+  
+    <script async="" type="text/javascript" src="./HTML5 - HTML _ MDN_files/wiki.eecc8b9caafa.js" charset="utf-8"></script>
+
+
+  
+
+  
+
+  
+
+
+
+</body></html>
